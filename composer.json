@@ -1,0 +1,15 @@
+{
+    "name": "flora/rotas-call-backs-mvc-router",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "melqueargolo",
+            "email": "melque.argolo@yahoo.com.br"
+        }
+    ],
+    "require": {}
+}
