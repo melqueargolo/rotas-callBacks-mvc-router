@@ -2,8 +2,10 @@
     "name": "flora/rotas-call-backs-mvc-router",
     "autoload": {
         "psr-4": {
-            "src\\": "src/"
-        }
+            "source\\": "source/"
+        },
+        "files":["source/Config.php"]
+
     },
     "authors": [
         {
@@ -11,5 +13,7 @@
             "email": "melque.argolo@yahoo.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "coffeecode/router": "^2.0"
+    }
 }
