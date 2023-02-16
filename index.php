@@ -20,7 +20,7 @@ $router->namespace("source\App");
  *method: home
  */
 $router->group(null); //serve para automatizar uma camada da aplicação / o null indica que não quer usar nenhum grupo de url
-$router->get("/", "Web:home"); //no lugar  da callback passou o controlador
+$router->get("/", "Web:home"); //no lugar da callback passou o controlador
 $router->get("/{filter}", "Web:home");
 
 
