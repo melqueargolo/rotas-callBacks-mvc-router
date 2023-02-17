@@ -4,7 +4,9 @@
         "psr-4": {
             "source\\": "source/"
         },
-        "files":["source/Config.php"]
+        "files":["source/Config.php",
+                 "source/App/Web.php"
+        ]
 
     },
     "authors": [

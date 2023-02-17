@@ -1,7 +1,7 @@
 <?php 
 
 require __DIR__ . "/vendor/autoload.php";
-require __DIR__ . "/source/App/Web.php";
+//require __DIR__ . "/source/App/Web.php";   //se não acrescentar no composer/autoload/files precisa descomentar
 
 use CoffeeCode\Router\Router;
 
@@ -37,8 +37,8 @@ $router->get("/categoria/{cat_uri}", "Web:category"); //sem {} estático / com {
  */
 $router->group("contato");
 $router->get("/", "Web:contact");
-$router->post("/", "Web:contact");
-$router->delete("/", "Web:contact");
+$router->post("/", "Web:contact"); //usando post
+$router->delete("/", "Web:contact");  //usando delete
 $router->get("/{sector}", "Web:contactSector"); //está apenas como exemplo(não implementado)
 $router->get("/suporte", "Web:support"); //está apenas como exemplo(não implementado)
 
