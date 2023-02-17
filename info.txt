@@ -1,7 +1,0 @@
-#modelo - persistem os dados /egras de negocios / trabalha com banco de dados / parte logica da aplicação
-
-#visão - onde fica o template / out input html / renderiza o visual do site /css
-
-# controlador - junta as partes 
-
-# rota - diz ao controlador qual metodo é disparado   ccontrolador ---> modelo
